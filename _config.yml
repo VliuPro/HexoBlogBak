@@ -1,0 +1,147 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: vliupro's blog
+subtitle: 不甘为庸
+description: 有缘之人，未必有分
+author: vliupro
+language: zh-Hans
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://blog.vliupro.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Archives 默认值为2，这里都修改为1，相应页面就只会列出标题，而非全文
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 1
+category: 1
+tag: 1
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 7
+pagination_dir: page
+
+# # Extensions
+# ## Plugins: http://hexo.io/plugins/
+# plugins:
+# - hexo-generator-feed
+# - hexo-generator-sitemap
+# # Feed Atom
+# feed:
+#   type: atom
+#   path: atom.xml
+#   limit: 20
+# # sitemap
+# sitemap:
+#   path: sitemap.xml
+
+## Themes: http://hexo.io/themes/
+theme: next
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  # type: git
+  # repository: https://github.com/idhyt/idhyt.github.io.git
+  # branch: master
+
+  # type: git
+  # repository: git@gitcafe.com:idhyt/idhyt.git
+  # branch: gitcafe-pages
+  type: git
+  repository: 
+    github: git@github.com:VliuPro/vliupro.github.io.git,master
+
+# =============================================================================
+# NexT Theme configuration
+# =============================================================================
+
+# 多说帐号
+duoshuo_shortname: vliupro
+
+# DISQUS 帐号 （如果已经设置 多说 帐号，此选项将被跳过）
+disqus_shortname: # your-disqus-shortname
+
+
+# 社交链接，将在侧栏中显示
+social:
+  GitHub: http://github.com/vliupro
+ # Twitter: your-twitter-url
+  Weibo: http://weibo.com/vliupro
+ # DouBan: your-douban-url
+ #ZhiHu: http://www.zhihu.com/people/liu-ji-da
+  # 等等
+
+
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+creative_commons: by-nc-sa
+
+
+# Google 站长工具验证，请选择 `HTML Meta` 验证方式
+# See: https://www.google.com/webmasters/
+#google_site_verification: i9ah5x5ODvKLpoCyNxyAxw8p0lbULKKLPS3IBF7_Guc
+
+
+# Google 分析 ID
+#google_analytics: UA-61722826-1
+
+
+# 百度统计 ID，此 ID 是百度统计提供脚本中 hm.js? 后面那串字符，非百度统计帐号
+#baidu_analytics: 5228d77c5752954f270fcca0908555af
+
+# 站点起始时间
+since: 2015
+
+swiftype_key: #VpXUP87KQneoFZ3srxxA
+
+# =============================================================================
+# End NexT Theme configuration
+# =============================================================================
