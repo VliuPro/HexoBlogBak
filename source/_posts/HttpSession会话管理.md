@@ -1,4 +1,4 @@
-﻿title: HttpSession会话管理
+title: HttpSession会话管理
 date: 2015-10-10 19:44:43
 categories: 
 - Java
@@ -11,7 +11,7 @@ description:
 
 #### &#160; &#160; &#160; &#160;无论是哪种方式，都必须自行处理对浏览器的响应，决定哪些信息必须送至浏览器，以便在之后的请求一并发送相关信息，供Web应用程序辨识请求之间的关联
 
-+  使用 HttpServletRequest 的 getSession() 方法取得对象。
++  使用 `HttpServletRequest` 的 `getSession()` 方法取得对象。
     　　在运行 getSession() 方法时，Web容器会创建HttpSession对象，而每个HttpSession对象都有个特殊的ID 称为 `Session ID` ， 通过执行HttpSession的 getId() 方法来取得。Session ID默认使用Cookie存放在浏览器中，在Tomcat中，Cookie的名称时JSESSIONID，数值则是getId()所取得的Session ID。
 >   
     ```Java

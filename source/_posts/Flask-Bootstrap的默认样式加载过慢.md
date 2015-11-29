@@ -1,4 +1,4 @@
-﻿title: Flask-Bootstrap的默认样式加载过慢
+title: Flask-Bootstrap的默认样式加载过慢
 date: 2015-10-22 18:21:03
 tags: 
 - Python
