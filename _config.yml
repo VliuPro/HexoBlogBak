@@ -25,7 +25,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -95,9 +95,11 @@ deploy:
   # repository: git@gitcafe.com:idhyt/idhyt.git
   # branch: gitcafe-pages
   type: git
+  message: update
   repository: 
+    s1: git@blog.vliupro.cn:blog.git,master
     github: git@github.com:VliuPro/vliupro.github.io.git,master
-
+    #gitcafe: git@gitcafe.com:VliuPro/VliuPro.git,gitcafe-pages
 # =============================================================================
 # NexT Theme configuration
 # =============================================================================
@@ -111,12 +113,13 @@ disqus_shortname: # your-disqus-shortname
 
 # 社交链接，将在侧栏中显示
 social:
-  GitHub: http://github.com/vliupro
+    GitHub: http://github.com/vliupro
  # Twitter: your-twitter-url
-  Weibo: http://weibo.com/vliupro
+    Weibo: http://weibo.com/vliupro
  # DouBan: your-douban-url
- #ZhiHu: http://www.zhihu.com/people/liu-ji-da
-  # 等等
+    ZhiHu: http://www.zhihu.com/people/liu-ji-da
+    # 等等
+    Vliupro: http://vliupro.com
 
 
 # Creative Commons 4.0 International License.
@@ -127,7 +130,7 @@ creative_commons: by-nc-sa
 
 # Google 站长工具验证，请选择 `HTML Meta` 验证方式
 # See: https://www.google.com/webmasters/
-#google_site_verification: i9ah5x5ODvKLpoCyNxyAxw8p0lbULKKLPS3IBF7_Guc
+google_site_verification: WZk0SZbxyUXcKsDaAaJ1hFK6iPPwT510dGxwxYG4zPA
 
 
 # Google 分析 ID
@@ -135,7 +138,7 @@ creative_commons: by-nc-sa
 
 
 # 百度统计 ID，此 ID 是百度统计提供脚本中 hm.js? 后面那串字符，非百度统计帐号
-#baidu_analytics: 5228d77c5752954f270fcca0908555af
+baidu_analytics: 0abef13d69a14c979fcd403e6b5f3a53
 
 # 站点起始时间
 since: 2015
