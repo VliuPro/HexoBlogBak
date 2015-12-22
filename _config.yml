@@ -134,11 +134,11 @@ google_site_verification: WZk0SZbxyUXcKsDaAaJ1hFK6iPPwT510dGxwxYG4zPA
 
 
 # Google 分析 ID
-#google_analytics: UA-61722826-1
+google_analytics: UA-71342181-1
 
 
 # 百度统计 ID，此 ID 是百度统计提供脚本中 hm.js? 后面那串字符，非百度统计帐号
-baidu_analytics: 0abef13d69a14c979fcd403e6b5f3a53
+baidu_analytics: 801c553fb2f6d18b34d3abff9367359f #0abef13d69a14c979fcd403e6b5f3a53
 
 # 站点起始时间
 since: 2015
