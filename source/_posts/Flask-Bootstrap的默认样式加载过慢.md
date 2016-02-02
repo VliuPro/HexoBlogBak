@@ -6,7 +6,7 @@ tags:
 categories: 
 - Python
 - Flask
-description: 
+permalink: flask-bootstrap-css-load
 ---
 刚开始学习flask，调试程序的时候发现在加载flask-bootstrap的样式和jquery文件的时候加载速度过慢，原因是在默认情况下加载的是美国的CDN节点下的样式文件，解决方法：
 　　

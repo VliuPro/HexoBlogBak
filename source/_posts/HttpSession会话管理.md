@@ -5,7 +5,7 @@ categories:
 tags: 
 - Java
 - Servlet
-description: 
+permalink: java-session-points
 ---
 > 会话管理有几种实现方式：Hidden Field（隐藏域） 、 Cookie 、 URL Rewriting（URL重写） 、 HttpSession
 

@@ -5,7 +5,7 @@ tags:
 - JavaScript
 categories: 
 - JavaScript
-permalink:
+permalink: js-random-no-repeat
 ---
 
 > Js生成随机数的方法跟Java很像，或者说很多的编程语言的随机数生成方法都是类似的，只不过生成随机数的函数的实现思想是不是一致我就不知道了～

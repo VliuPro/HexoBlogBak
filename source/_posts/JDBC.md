@@ -8,7 +8,7 @@ tags:
 categories:
 - Java
 - JDBC
-permalink:
+permalink: jdbc
 ---
 #### 什么是JDBC？
 　　在认识JDBC之前，先了解一下应用程序如何跟数据库进行沟通。

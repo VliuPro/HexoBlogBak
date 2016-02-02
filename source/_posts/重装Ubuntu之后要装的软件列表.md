@@ -5,7 +5,7 @@ tags:
 - Ubuntu
 categories:
 - Ubuntu
-permalink:
+permalink: reset-ubuntu-points
 ---
 > 　　最近终于申请到了一台主机，终于可以不用每天背着重重的笔记本爬五楼了，想想还有点小激动呢～当然，新主机什么的总会有重装系统配置开发环境这种麻烦事，为了免得每次重装系统都要很麻烦的想以前装了什么，这里搞个列表备份一下～
 
